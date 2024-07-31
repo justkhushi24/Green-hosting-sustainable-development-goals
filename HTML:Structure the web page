@@ -3,43 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sustainable Development Goals</title>
+    <title>SDGs and Water</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Sustainable Development Goals</h1>
-        <nav>
-            <ul>
-                <li><a href="#goal1">No Poverty</a></li>
-                <li><a href="#goal2">Zero Hunger</a></li>
-                <li><a href="#goal3">Good Health and Well-being</a></li>
-                <!-- Add more goals as needed -->
-            </ul>
-        </nav>
+        <h1>Water and Sustainable Development Goals</h1>
     </header>
-
     <main>
-        <section id="goal1" class="goal">
-            <h2>Goal 1: No Poverty</h2>
-            <p>End poverty in all its forms everywhere.</p>
+        <section class="poster">
+            <img src="sdg-posters_thumbnail (1).png" alt="SDG Water Poster">
         </section>
-
-        <section id="goal2" class="goal">
-            <h2>Goal 2: Zero Hunger</h2>
-            <p>End hunger, achieve food security and improved nutrition, and promote sustainable agriculture.</p>
-        </section>
-
-        <section id="goal3" class="goal">
-            <h2>Goal 3: Good Health and Well-being</h2>
-            <p>Ensure healthy lives and promote well-being for all at all ages.</p>
+        <section class="sdg-details">
+            <div class="sdg-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Eo_circle_red_no.1.svg/1024px-Eo_circle_red_no.1.svg.png" alt="SDG 1 No Poverty">
+                <div class="text">
+                    <h2>SDG 1: No Poverty</h2>
+                    <p>Those living in poverty are often hardest hit by drought or floods...</p>
+                </div>
+            </div>
+            <div class="sdg-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Eo_circle_orange_no.11.svg/1024px-Eo_circle_orange_no.11.svg.png" alt="SDG 11 Sustainable Cities">
+                <div class="text">
+                    <h2>SDG 11: Sustainable Cities and Communities</h2>
+                    <p>Water is fundamental to sustainable cities and communities...</p>
+                </div>
+            </div>
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2024 Sustainable Development. All rights reserved.</p>
+        <p>© 2024 SDGs and Water</p>
     </footer>
-
-    <script src="scripts.js"></script>
 </body>
 </html>
